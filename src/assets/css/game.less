@@ -1,0 +1,78 @@
+.game {
+  width: 1226px;
+  height: 830px;
+  margin: 12px auto;
+  border-radius: 50px;
+  user-select:none;
+
+  #view {
+    width: 378px;
+    height: 820px;
+    float: left;
+    background-color: #000;
+    margin: 0 0 0 60px;
+    text-align: center; 
+    font: 37.5px/37.5px '宋体';
+    color: red;
+  }
+
+  .control {
+    width: 500px;
+    height: 760px;
+    float: right;
+    margin: 40px 60px;
+    position: relative;
+    text-align: center; 
+
+    .begin, .stop {
+      display: inline-block;
+      margin-top: 80px;
+      font-size: 1.5em;
+      width: 300px;
+      height: 50px;
+    }
+
+    .stop {
+      margin-top: 30px;
+    }
+
+    .score {
+      font-size: 2em;
+      margin-top: 150px;
+    }
+    
+    .btn {
+      color: #1890ff;
+      font-size: 7em;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      color: #40a0fa;
+      box-sizing: border-box;
+      border: 3px solid #1890ff;
+      border-radius: 50%;
+    }
+
+    .left {
+      left: 80px;
+      bottom: 120px;
+    }
+
+    .right {
+      right: 80px;
+      bottom: 120px;
+    }
+
+    .up {
+      left: 200px;
+      bottom: 180px;
+    }
+
+    .down {
+      left: 200px;
+      bottom: 60px;
+    }
+  }
+}
